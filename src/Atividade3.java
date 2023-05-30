@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Atividade3 {
     public static void main(String[] args){
 
         System.out.println("Calcule a media!");
@@ -23,8 +23,8 @@ public class Exercicio3 {
         System.out.println("-----------------------------------");
 
         if(primeiraMedia >= 7.0){System.out.println("Situação até o momento: Aprovado");}
-        else if(primeiraMedia <= 6.0){System.out.println("Situação até o momento: Reprovado");}
-        else if(primeiraMedia == 10.0){System.out.println("Situação até o momento: Aprovado com DISTINCAO");}
+        else if (primeiraMedia <= 7.0){System.out.println("Situação até o momento: Reprovado");}
+        else if (primeiraMedia == 10.0){System.out.println("Situação até o momento: Aprovado com DISTINCAO");}
 
         System.out.println("-----------------------------------");
     }
